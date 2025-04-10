@@ -8,9 +8,7 @@
 <body>
     <header>
         <h1>Welcome to my Portfolio</h1>
-    </header>
 
-    <main>
         <a href="">
             <button>About</button>
         </a>
@@ -23,58 +21,107 @@
         <a href="">
             <button>Contact</button>
         </a>
-        <h1>Gayathri Valipi Reddy</h1>
 
-        <img src="my image.jpg" alt="A image of me." style="height:250px;width:300px;">
-        <p>I am a passionate web developer with a focus on front-end technologies.</p>
-        <p>I am currently pursuing my B.Tech in <em>CT University, Punjab</em>.</p>
-        <p>I am learning Web Development with the help of <i>Code with Swaroop</i>.</p>
-        <p>You can <strong>Click here</strong> to check out what I have learnt in HTML, CSS, JS. </p>
-        <h1>My Skills</h1>
-        <ol>
-            <li>C and C++ programming language</li>
-            <li>Python Basics</li>
-            <li>Machine Learning Basics</li>
-            <li>Data Science Basics</li>
-            <li>HTML, CSS, JS [Learning]</li>
-        </ol>
-        <h1>Contact Me</h1>
-        <p>Fell free to get in touch with using the form below:</p>
-        <form action="">
+    </header>
 
-            <label for="username">Name :</label>
-            <input type="text">
-            <br>
+    <main>
+        
+        <section id="about">
 
-            <label for="email">Email :</label>
-            <input type="email">
-            <br>
+            <h1>Gayathri Valipi Reddy</h1>
+
+                <img src="my image.jpg" alt="A image of me." style="height:250px;width:300px;">
+                <p>I am a passionate web developer with a focus on front-end technologies.</p>
+                <p>I am currently pursuing my B.Tech in <em>CT University, Punjab</em>.</p>
+                <p>I am learning Web Development with the help of <i>Code with Swaroop</i>.</p>
+                <p>You can <strong>Click here</strong> to check out what I have learnt in HTML, CSS, JS. </p>
             
-            <label for="password">Password :</label>
-            <input type="password">
-            <br>
+        </section>
 
-            <b>Choose your gender :</b>
-            <input type="radio" id="Male" value="male">
-            <label for="Male">Male</label>
-            <input type="radio" id="Female" value="female">
-            <label for="Female">Female</label>
-            <br>
+        <section id="skills">
+            <h1>My Skills</h1>
+            <ol>
+                <li>C and C++ programming language</li>
+                <li>Python Basics</li>
+                <li>Machine Learning Basics</li>
+                <li>Data Science Basics</li>
+                <li>HTML, CSS, JS [Learning]</li>
+            </ol>
+        </section>
+        
+        <section id="projects">
+            <h1>My Projects</h1>
+            <table border="1">
+                <tr>
+                    <th style="padding:5px;border-spacing:5px;">Project</th>
+                    <th style="padding:5px;border-spacing:5px;">Description</th>
+                </tr>
+                <tr>
+                    <td style="padding:5px;border-spacing:5px;">Portfolio Website</td>
+                    <td style="padding:5px;border-spacing:5px;">I have build a Portfolio by using HTML, CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <td style="padding:5px;border-spacing:5px;">Simple Calculator</td>
+                    <td style="padding:5px;border-spacing:5px;">I have built a simple calculator using Python</td>
+                </tr>
+            </table>
+        </section>
 
-            <b>Select your interests :</b>
-            <input type="checkbox" id="coding" value="coding">
-            <label for="coding">Coding</label>
-            <input type="checkbox" id="reading" value="reading">
-            <label for="reading">Reading</label>
-            <br>
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <p>Fell free to get in touch with using the form below:</p>
+            <form action="">
 
-            <label for="bio">Bio (up to 200 characters) :<label>
-            <input type="text">
-            <br>
+                <label for="username">Name :</label>
+                <input type="text">
+                <br>
 
-            <input type="submit">
+                <label for="email">Email :</label>
+                <input type="email">
+                <br>
 
-        </form>
+                <label for="password">Password :</label>
+                <input type="password">
+                <br>
+
+                <b>Choose your gender :</b>
+                <input type="radio" id="Male" value="male">
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" value="female">
+                <label for="Female">Female</label>
+                <br>
+
+                <b>Select your interests :</b>
+                <input type="checkbox" id="coding" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="reading" value="reading">
+                <label for="reading">Reading</label>
+                <br>
+
+                <label for="bio">Bio (up to 200 characters) :<label>
+                <input type="text">
+                <br>
+
+                <input type="submit">
+
+            </form>
+        </section>
+
     </main>
+
+    <footer style="background-color:black;color:white;">
+        <p>@ 2025 My Portfolio</p>
+        <div class="social media">
+            <a href="https://github.com/VGayathrireddy" target="_blank">
+                <button>Github</button>
+            </a>
+            <a href="http://www.linkedin.com/in/gayathri-valipi-reddy-1798b72b2" target="_blank">
+                <button>LinkedIn</button>
+            </a>
+            <a href="https://www.instagram.com/itsme_goutham18/profilecard/?igsh=N2N2YTBzNDJ3dWFl" target="_blank">
+                <button>Instagram</button>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
